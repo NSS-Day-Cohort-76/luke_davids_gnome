@@ -136,6 +136,18 @@
       "intendedUse": "Enable someone to hate another person",
       "craftTypeId": 2,
       "id": 8
+    },
+    {
+      "name": "Elixir of Love",
+      "intendedUse": "Fall in love",
+      "craftTypeId": 2,
+      "id": 9
+    },
+    {
+      "name": "New",
+      "intendedUse": "rea",
+      "craftTypeId": 2,
+      "id": 10
     }
   ],
   "completions": [
@@ -165,14 +177,29 @@
       "id": 5
     },
     {
-      "crafterId": 1,
-      "craftRequestId": 1,
+      "crafterId": 2,
+      "craftRequestId": 5,
       "id": 6
     },
     {
-      "crafterId": 2,
-      "craftRequestId": 1,
+      "crafterId": 1,
+      "craftRequestId": 6,
       "id": 7
+    },
+    {
+      "crafterId": 2,
+      "craftRequestId": 8,
+      "id": 8
+    },
+    {
+      "crafterId": 1,
+      "craftRequestId": 9,
+      "id": 9
+    },
+    {
+      "crafterId": 2,
+      "craftRequestId": 10,
+      "id": 10
     }
   ],
   "craftIngredients": [
@@ -295,6 +322,16 @@
       "ingredientId": 4,
       "completionId": 7,
       "id": 24
+    },
+    {
+      "ingredientId": 4,
+      "completionId": 10,
+      "id": 25
+    },
+    {
+      "ingredientId": 1,
+      "completionId": 10,
+      "id": 26
     }
   ]
 }
